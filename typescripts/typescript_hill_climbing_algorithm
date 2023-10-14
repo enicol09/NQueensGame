@@ -1,0 +1,341 @@
+Script started on Thu 07 Nov 2019 03:23:17 PM EET
+[?1034hb103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>exitixtvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens ann 5 maxtime 10hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 10[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 10[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 105 maxtime 10020 maxtime 105 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 5 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[C./nQueens hill 17 maxtime 10 seed 10[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@6 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@5
+
+ Algorithm = hill , N = 5 , Maxtime = 10 , Seed = 10 
+
+ --- There is a solution --- 
+   --------------------
+  | / | / | / | / | Q |
+  | / | Q | / | / | / |
+  | / | / | / | Q | / |
+  | Q | / | / | / | / |
+  | / | / | Q | / | / |
+   --------------------
+ *-- Time spent: 0.000000 secs --*
+
+ *-- This took 1 restarts , and 5 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  hill 5 maxtime 10 seed 10[1P[1@1[1@0
+
+ Algorithm = hill , N = 10 , Maxtime = 10 , Seed = 10 
+
+ --- There is a solution --- 
+   ----------------------------------------
+  | Q | / | / | / | / | / | / | / | / | / |
+  | / | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | / | / | Q | / | / | / |
+  | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | Q |
+  | / | / | Q | / | / | / | / | / | / | / |
+  | / | / | / | / | / | Q | / | / | / | / |
+  | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | Q | / | / | / | / | / |
+   ----------------------------------------
+ *-- Time spent: 0.000000 secs --*
+
+ *-- This took 34 restarts , and 177 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  hill 10 maxtime 10 seed 10[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[1@0[C[C[C[C[C[C[C[C[C[K5
+
+ Algorithm = hill , N = 15 , Maxtime = 100 , Seed = 15 
+
+ --- There is a solution --- 
+   ------------------------------------------------------------
+  | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / |
+  | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / |
+  | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / |
+  | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q |
+   ------------------------------------------------------------
+ *-- Time spent: 1.120000 secs --*
+
+ *-- This took 542 restarts , and 4174 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  hill 15 maxtime 100 seed 15[1P[1P[1@2[1@0
+
+ Algorithm = hill , N = 20 , Maxtime = 100 , Seed = 15 
+
+ --- There is a solution --- 
+   --------------------------------------------------------------------------------
+  | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q |
+  | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / |
+  | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / |
+   --------------------------------------------------------------------------------
+ *-- Time spent: 4.060000 secs --*
+
+ *-- This took 540 restarts , and 5819 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  hill 20 maxtime 100 seed 15[1P[1P[2@15[1P[C[C[1P[1P[C[1@ [1@9[C[1@ [1P
+
+ Algorithm = hill , N = 9 , Ma / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / |
+   --------------------------------------------------------------------------------
+ *-- Time spent: 4.060000 secs --*
+
+ *-- This took 540 restarts , and 5819 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  hill 20 maxtime 100 seed 15[1P[1P[2@15[1P[C[C[1P[1P[C[1@ [1@9[C[1@ [1P
+
+ Algorithm = hill , N = 9 , Maxtime = 100 , Seed = 15 
+
+ --- There is a solution --- 
+   ------------------------------------
+  | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | Q | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | / | / | / | / | Q |
+  | / | Q | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | Q | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / |
+   ------------------------------------
+ *-- Time spent: 0.010000 secs --*
+
+ *-- This took 58 restarts , and 258 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>exoy[K[Kit
+exit
+Script done, file is typescript
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>script
+Script started, file is typescript
+[?1034hb103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>exit./nQueens  hill 9 maxtime 100 seed 15[C[C[C[C[C[C[1@20[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C15[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C20[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^[[2~[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K10[1P[1P[1P[1P[1P[1P[1P[1@d[1@f[1@s[C[1@ [1@5
+
+ Algorithm = dfs , N = 5 , Maxtime = 10 
+ 
+ There is a solution !! 
+   --------------------
+  | / | / | / | / | Q |
+  | / | / | Q | / | / |
+  | Q | / | / | / | / |
+  | / | / | / | Q | / |
+  | / | Q | / | / | / |
+   --------------------
+ Time spent: 0.000000 secs
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  dfs 5 maxtime 10[1P[1@1[1@0
+
+ Algorithm = dfs , N = 10 , Maxtime = 10 
+ 
+ There is a solution !! 
+   ----------------------------------------
+  | / | / | / | / | / | / | / | / | / | Q |
+  | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | Q | / | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | Q | / | / | / | / |
+  | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | Q | / | / | / | / | / | / |
+   ----------------------------------------
+ Time spent: 0.000000 secs
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  dfs 10 maxtime 10[1P[1@5
+
+ Algorithm = dfs , N = 15 , Maxtime = 10 
+ 
+ There is a solution !! 
+   ------------------------------------------------------------
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q |
+  | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / |
+  | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / |
+  | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / |
+   ------------------------------------------------------------
+ Time spent: 0.250000 secs
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  dfs 15 maxtime 10[1P[1@6
+
+ Algorithm = dfs , N = 16 , Maxtime = 10 
+ 
+ There is a solution !! 
+   ----------------------------------------------------------------
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / |
+  | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / |
+   ----------------------------------------------------------------
+ Time spent: 2.160000 secs
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>./nQueens  dfs 16 maxtime 10[1P[1P[1@9
+
+ Algorithm = dfs , N = 9 , Maxtime = 10 
+ 
+ There is a solution !! 
+   ------------------------------------
+  | / | / | / | / | / | / | / | / | Q |
+  | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | Q | / | / | / | / | / |
+  | / | Q | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | / | Q | / | / | / |
+  | Q | / | / | / | / | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | Q | / | / | / | / |
+   ------------------------------------
+ Time spent: 0.000000 secs
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>exit
+exit
+Script done, file is typescript
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>script[1Pclear[1Pexitixtvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens ann 5 maxtime 10hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+gcc  -std=c99 -Wall -O -Wuninitialized -Wunreachable-code -pedantic  -c check.c
+gcc  -std=c99 -Wall -O -Wuninitialized -Wunreachable-code -pedantic  -c hill.c
+gcc  -lm -o nQueens  nQueens.o  check.o  stack.o  simulate.o  board.o  hill.o  DFS.o
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>makescript[1Pclear[1Pexitixtvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens ann 5 maxtime 10hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 10[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 10[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 105 maxtime 10020 maxtime 105 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 5 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[C./nQueens hill 17 maxtime 10 seed 10[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@6 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P7[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+ Algorithm = hill , N = 17 , Maxtime = 10 , Seed = 10 
+
+ --- There is a solution --- 
+   --------------------------------------------------------------------
+  | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / |
+  | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / |
+  | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q | / |
+  | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / |
+  | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / |
+  | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / | Q |
+  | / | Q | / | / | / | / | / | / | / | / | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | / | / | / | Q | / | / | / | / |
+  | / | / | / | / | / | / | / | / | / | Q | / | / | / | / | / | / | / |
+  | / | / | / | / | / | / | Q | / | / | / | / | / | / | / | / | / | / |
+   --------------------------------------------------------------------
+ *-- Time spent: 3.440000 secs --*
+
+ *-- This took 930 restarts , and 8264 steps --*
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>clear
+[3;J[H[2Jb103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>clear./nQueens  hill 17 maxtime 10 seed 10[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript[1Pclear[1Pexitixtvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens ann 5 maxtime 10hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 5[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 10[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 10[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 20 maxtime 105 maxtime 10020 maxtime 105 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K
+[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind ---tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 5 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[C./nQueens hill 17 maxtime 10 seed 10[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@6 [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P20[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./nQueens  hill 20 maxtime 10 seed 10[C[C[C[C[C[C15 maxtime 100 seed 5[C[C[C[C[C[C[C0 maxtime 100 seed 0[C[C[C[C[C[C[8P5 maxtime 100[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pscript
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pclear[1Pmakegcc stack..c board.c simulate.c simulate.h -DDEBUG4math.h -DDEBUG4[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c simulate.c simulate.h math.h -DDEBUG4[7P-DDEBUG4[11P-DDEBUG4[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c simulate.c -DDEBUG43[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P./a.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c hill.c -DDEBUG2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P./a.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c hill.c -DDEBUG2[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P./a.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c DFS.c -DDEBUG1C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P./a.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c -DDEBUG[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P./a.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c -DDEBUG4[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P./a.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc stack..c board.c -DDEBUG4[C[C[C[2PDFS[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdoxygen -gg doxygen.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind --tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 5 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[Cdoxygen -g doxygen.conf[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pmake
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdoxygen -gg doxygen.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cvalgrind --tool=memcheck --leak-check=full --show-reachable=yes --num-callers=20 --track-ffds=yes --track-origins=yes -v ./nQueens hill 5 maxtime 100[A[A[C[C[C[C[C[C[C[C[C[C[C[Cdoxygen -g doxygen.conf[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+Configuration file `doxygen.conf' created.
+
+Now edit the configuration file and enter
+
+  doxygen doxygen.conf
+
+to generate the documentation for your project
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>doxygen -gg doxygen.conf[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pclear
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[KMAKE [K[K[K[K[Kmake all
+make
+make[1]: Entering directory `/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3'
+make[1]: `nQueens' is up to date.
+make[1]: Leaving directory `/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3'
+make doxy
+make[1]: Entering directory `/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3'
+doxygen  doxygen.conf &> doxygen.log
+make[1]: Leaving directory `/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3'
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3> firefox  html/index.html [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfirefox ht[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>kill fire foc[Kx
+bash: kill: firefox: arguments must be process or job IDs
+b103ws4:/home/students/cs/2018/enicol09/2nd_Year/EPL232/Homeworks/Hw_3>rm .mozil la/firefox/profiles/[K.ini
